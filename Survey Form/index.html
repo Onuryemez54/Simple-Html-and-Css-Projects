@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title">Apple Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form">
+        <div class="form-div">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-div">
+            <label for="email" id="email-label">Email</label>
+            <input type="Email" id="email" name="email" placeholder="Enter Your Email" required>
+        </div>   
+        <div class="form-div">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" name="age" max="120" min="10" placeholder="Age" required>
+        </div>
+        <div class="form-div">
+            <label for="dropdown" id="dropdown-label">Which phone do you think has the best design?</label>
+            <select id="dropdown" name="design">
+                <option value="1">iPhone 5s</option>
+                <option value="2">iPhone 8 Plus</option>
+                <option value="3">iPhone 13</option>
+                <option value="4">iPhone 14 Pro Max</option>
+            </select>
+        </div>
+        <div class="form-div">
+            <label id="radio-label">Would you recommend apple products to people?</label>
+        </div>
+        <div class="form-radio">
+          <label for="Definitely" id="Definitely-label"><input id="Definitely" type="radio" value="Definitely" name="recommend "> Definitely</label>
+        </div>
+        <div class="form-radio">
+          <label for="Maybe" id="Maybe-label"><input id="Maybe" type="radio" value="Maybe" name="recommend "> Maybe</label>
+        </div>
+        <div class="form-radio">
+          <label for="Not sure" id="Not sure-label"><input id="Not sure" type="radio" value="Not sure" name="recommend "> Not sure</label>
+        </div>
+        <div class="form-div">
+            <label id="checkbox-label">What Apple products do you own?</label>
+        </div>
+        <div class="form-checkbox">
+          <label for="iPhone" id="iPhone-label"><input id="iPhone" type="checkbox" value="iPhone" name="own "> iPhone</label>
+        </div>
+        <div class="form-checkbox">
+          <label for="MacBook" id="MacBook-label"><input id="MacBook" type="checkbox" value="MacBook" name="own "> MacBook</label>
+        </div>
+        <div class="form-checkbox">
+          <label for="Apple Watch" id="Apple Watch-label"><input id="Apple Watch" type="checkbox" value="Apple Watch" name="own "> Apple Watch</label>
+        </div>
+        <div class="form-checkbox">
+            <label for="iPad" id="iPad-label"><input id="iPad" type="checkbox" value="iPad" name="own "> iPad</label>
+          </div>
+        <div class="form-div">
+            <label for="textarea" id="label-textarea">Any comments or suggestions?</label>
+            <textarea name="suggestions" id="textarea" placeholder="Enter your comment here..."></textarea>
+            </div>
+        <div class="form-div btn">
+            <input type="submit" value="Submit" id="submit">
+            </div>
+    </form>
+    </body>
+</html>

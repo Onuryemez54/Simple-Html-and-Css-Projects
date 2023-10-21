@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html {
+    font-size: 16px;
+}
+#main {
+    background-color: rgba(175, 189, 187, 0.404);
+    margin: 2rem 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333232;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#title {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+header p {
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+}
+#main #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 98%;
+    border-radius: 5px;
+}
+#main #image {
+    max-width: 100%;
+    height: auto;
+}
+#main #img-caption {
+    margin: 1rem auto;
+    max-width: 80%;
+}
+#main #tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#tribute-info ul {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    max-width: 500px;
+}
+
+#tribute-info blockquote {
+  max-width: 450px;
+  line-height: 1.3rem ;
+  font-style: italic;
+}   
+
+#main #tribute-link {
+    color: #33202c;
+}
+#main #tribute-link:hover {
+    color: #2e061f;
+}
+#main #tribute-link:visited {
+    color:#333232;
+}
+@media all and (max-width:450px) {
+    #title {
+        font-size: 1rem;
+    }
+    header p {
+        font-size: 0.9rem;
+    }
+    #tribute-info h3 {
+        font-size: 1rem;
+    }
+}

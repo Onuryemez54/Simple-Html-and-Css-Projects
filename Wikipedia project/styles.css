@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans',sans-serif;
+    color:rgb(196, 203, 206);
+    line-height: 1.3;
+    background-color: rgb(203, 215, 228);
+    background-image: url(https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+#navbar img {
+    width: 10rem;
+    height: 500em;
+    border-radius: 5px;
+}
+#navbar {
+    height: 100vh;
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+header {
+    color: rgb(238, 242, 243);
+    font-size: 1.7em;
+    text-align: left;
+}
+nav header {
+    margin: 10px auto;
+    text-align: center;
+
+}
+#main-doc {
+    height: 100vh;
+    width: 75%;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.nav-link {
+    text-decoration: none;
+    color:rgb(49, 71, 80);
+    line-height: 1.3;
+    background-color: rgb(185, 201, 207);
+    border-radius: 4px;
+    border: 1px solid rgb(132, 172, 187) ;
+}
+.nav-link:hover {
+    background-color: rgb(132, 172, 187);
+}
+.nav-link2 {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    line-height: 1.3;
+    background-color: rgb(203, 215, 228);
+    border-radius: 3px;
+}
+.navli {
+    margin: 15px auto;
+
+}
+#ul-navbar {
+    list-style-type: none;
+}
+.other {
+    list-style: circle;
+}
+ code {
+    background-color: rgb(185, 201, 207);
+    color: rgb(49, 71, 80);
+    border-radius: 2px;
+ }
+.career {
+    font-size: 1.2em;
+    margin: 10px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    #main-doc {
+        margin-top: -300px;
+        margin-left: 40px;
+    }
+}
